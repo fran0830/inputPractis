@@ -13,6 +13,8 @@ class Programm
         //外部からの入力を受け付ける。
         Console.Write("あなたの名前は？");
         var name = Console.ReadLine();
+        
+        //入力結果を表示する。
         Console.WriteLine("{0}です", name);
     }
 }
